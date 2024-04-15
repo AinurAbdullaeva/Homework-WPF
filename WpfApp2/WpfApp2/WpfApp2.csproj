@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Eyler's  Method">
+      <HintPath>..\..\Eyler's  Method\Eyler's  Method\bin\Debug\net8.0\Eyler's  Method.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

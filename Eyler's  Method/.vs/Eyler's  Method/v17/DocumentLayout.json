@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u043F\u043A\\Documents\\Eyler\u0027s  Method\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF5046C-818F-4D0D-BB15-B50E539C5615}|Eyler\u0027s  Method\\Eyler\u0027s  Method.csproj|c:\\users\\\u043F\u043A\\documents\\eyler\u0027s  method\\eyler\u0027s  method\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF5046C-818F-4D0D-BB15-B50E539C5615}|Eyler\u0027s  Method\\Eyler\u0027s  Method.csproj|solutionrelative:eyler\u0027s  method\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u043F\u043A\\Documents\\Eyler\u0027s  Method\\Eyler\u0027s  Method\\Program.cs",
+              "RelativeDocumentMoniker": "Eyler\u0027s  Method\\Program.cs",
+              "ToolTip": "C:\\Users\\\u043F\u043A\\Documents\\Eyler\u0027s  Method\\Eyler\u0027s  Method\\Program.cs",
+              "RelativeToolTip": "Eyler\u0027s  Method\\Program.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAAAEoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T06:08:48.779Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
