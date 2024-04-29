@@ -16,3 +16,23 @@ C:\Users\пк\Documents\WpfApp2\WpfApp2\obj\Debug\net8.0-windows\refint\WpfApp2.
 C:\Users\пк\Documents\WpfApp2\WpfApp2\obj\Debug\net8.0-windows\WpfApp2.pdb
 C:\Users\пк\Documents\WpfApp2\WpfApp2\obj\Debug\net8.0-windows\WpfApp2.genruntimeconfig.cache
 C:\Users\пк\Documents\WpfApp2\WpfApp2\obj\Debug\net8.0-windows\ref\WpfApp2.dll
+C:\Users\пк\Documents\GitHub\Homework-WPF\WpfApp2\WpfApp2\bin\Debug\net8.0-windows\WpfApp2.exe
+C:\Users\пк\Documents\GitHub\Homework-WPF\WpfApp2\WpfApp2\bin\Debug\net8.0-windows\WpfApp2.deps.json
+C:\Users\пк\Documents\GitHub\Homework-WPF\WpfApp2\WpfApp2\bin\Debug\net8.0-windows\WpfApp2.runtimeconfig.json
+C:\Users\пк\Documents\GitHub\Homework-WPF\WpfApp2\WpfApp2\bin\Debug\net8.0-windows\WpfApp2.dll
+C:\Users\пк\Documents\GitHub\Homework-WPF\WpfApp2\WpfApp2\bin\Debug\net8.0-windows\WpfApp2.pdb
+C:\Users\пк\Documents\GitHub\Homework-WPF\WpfApp2\WpfApp2\bin\Debug\net8.0-windows\Eyler's  Method.dll
+C:\Users\пк\Documents\GitHub\Homework-WPF\WpfApp2\WpfApp2\bin\Debug\net8.0-windows\Eyler's  Method.pdb
+C:\Users\пк\Documents\GitHub\Homework-WPF\WpfApp2\WpfApp2\obj\Debug\net8.0-windows\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\пк\Documents\GitHub\Homework-WPF\WpfApp2\WpfApp2\obj\Debug\net8.0-windows\WpfApp2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\пк\Documents\GitHub\Homework-WPF\WpfApp2\WpfApp2\obj\Debug\net8.0-windows\WpfApp2.AssemblyInfoInputs.cache
+C:\Users\пк\Documents\GitHub\Homework-WPF\WpfApp2\WpfApp2\obj\Debug\net8.0-windows\WpfApp2.AssemblyInfo.cs
+C:\Users\пк\Documents\GitHub\Homework-WPF\WpfApp2\WpfApp2\obj\Debug\net8.0-windows\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\пк\Documents\GitHub\Homework-WPF\WpfApp2\WpfApp2\obj\Debug\net8.0-windows\WpfApp2.sourcelink.json
+C:\Users\пк\Documents\GitHub\Homework-WPF\WpfApp2\WpfApp2\obj\Debug\net8.0-windows\WpfApp2.csproj.Up2Date
+C:\Users\пк\Documents\GitHub\Homework-WPF\WpfApp2\WpfApp2\obj\Debug\net8.0-windows\WpfApp2.dll
+C:\Users\пк\Documents\GitHub\Homework-WPF\WpfApp2\WpfApp2\obj\Debug\net8.0-windows\refint\WpfApp2.dll
+C:\Users\пк\Documents\GitHub\Homework-WPF\WpfApp2\WpfApp2\obj\Debug\net8.0-windows\WpfApp2.pdb
+C:\Users\пк\Documents\GitHub\Homework-WPF\WpfApp2\WpfApp2\obj\Debug\net8.0-windows\WpfApp2.genruntimeconfig.cache
+C:\Users\пк\Documents\GitHub\Homework-WPF\WpfApp2\WpfApp2\obj\Debug\net8.0-windows\ref\WpfApp2.dll
+C:\Users\пк\Documents\GitHub\Homework-WPF\WpfApp2\WpfApp2\obj\Debug\net8.0-windows\WpfApp2.csproj.ResolveComReference.cache

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\пк\\Documents\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
+      "projectUniqueName": "C:\\Users\\пк\\Documents\\GitHub\\Homework-WPF\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
       "projectName": "WpfApp2",
-      "projectPath": "C:\\Users\\пк\\Documents\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
+      "projectPath": "C:\\Users\\пк\\Documents\\GitHub\\Homework-WPF\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
       "packagesPath": "C:\\Users\\пк\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\пк\\Documents\\WpfApp2\\WpfApp2\\obj\\",
+      "outputPath": "C:\\Users\\пк\\Documents\\GitHub\\Homework-WPF\\WpfApp2\\WpfApp2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\пк\\AppData\\Roaming\\NuGet\\NuGet.Config",
