@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.ComponentModel.DataAnnotations;
+using System.IO;
 
 public class Goal
 {
@@ -27,7 +28,8 @@ public class Bird : Goal
     double [] count_vx = new double[20];
     double[] count_vy = new double[20];
     public int n = 1;
-
+    public double maxheight;
+    public double maxdist;
     
      public Bird(double p_t, double p_v, double p_m, double p_alph)
     {
@@ -85,17 +87,17 @@ public class Bird : Goal
            
             if (coord_y[i] <= 0) {
                 Info2();
-                return;
+                break;
             }
             else if ((dist_x <= coord_x[i] && coord_x[i] <= (dist_x + wideth)) && coord_y[i] <= height)
             {
                 Info1();
-                return;
+                break;
             }
             else
             {
                 Info3();
-                return;
+                break;
             }
             temp += step;
 
@@ -104,7 +106,10 @@ public class Bird : Goal
 
 
         }
+        maxheight = coord_y.Max();
+        maxdist = coord_x.Max();
     }
+   
 }
 /*public class Programm
 {

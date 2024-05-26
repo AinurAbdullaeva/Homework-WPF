@@ -12,10 +12,12 @@ namespace WPF2
         TextBox ang;
         TextBox v;
         TextBox t;
-        TextBox m;
+        TextBox m;  
         double vv;
         TextBlock coord;
         Bird Bomb;
+        Canvas model;
+        double k;
        [STAThread]
         public static void Main()
         {
@@ -26,7 +28,9 @@ namespace WPF2
         {
             Title = "Run"; //название окна
             Button btn = new Button();
-            Canvas model=new Canvas();
+            model=new Canvas();
+            model.Height = 600;
+            model.Width = 300;
             Label la = new Label();
             la.Content = "Угол:";
             Label lv=new Label();
@@ -39,14 +43,18 @@ namespace WPF2
             sp.Children.Add(btn);
             sp.Children.Add(la);
             ang = new TextBox();
+            ang.Text = "30";
             sp.Children.Add(ang);
             sp.Children.Add(lv);
             v = new TextBox(); 
             sp.Children.Add(v);
             t=new TextBox();
+            t.Text = "10";
+            v.Text = "10";
             sp.Children.Add(lt);
             sp.Children.Add(t);
             m=new TextBox();
+            m.Text = "5";
             sp.Children.Add(lm);
             sp.Children.Add(m);
             coord = new TextBlock();
@@ -82,13 +90,32 @@ namespace WPF2
             
             Bomb.Win();
             Polyline trajectory = new Polyline();
+            Polyline myPolyline = new Polyline();
+            myPolyline.Stroke = System.Windows.Media.Brushes.SlateGray;
+            myPolyline.StrokeThickness = 2;
+            myPolyline.FillRule = FillRule.EvenOdd;
+            System.Windows.Point Point4 = new System.Windows.Point(0, model.ActualHeight);
+            System.Windows.Point Point5 = new System.Windows.Point(model.ActualWidth/2,0);
+            System.Windows.Point Point6 = new System.Windows.Point(model.ActualWidth, model.ActualHeight);
+            PointCollection myPointCollection2 = new PointCollection();
+            myPointCollection2.Add(Point4);
+            myPointCollection2.Add(Point5);
+            myPointCollection2.Add(Point6);
+            myPolyline.Points = myPointCollection2;
+            model.Children.Add(myPolyline);
+            trajectory.Stroke = System.Windows.Media.Brushes.MediumVioletRed;
             PointCollection myPointCollection = new PointCollection();
             trajectory.Points = myPointCollection;
+            Console.WriteLine(Bomb.maxdist);
+            Console.WriteLine(Bomb.maxheight);
+            k = Math.Max(model.ActualHeight / Bomb.maxheight, model.ActualWidth / Bomb.maxdist);
             for (int i = 0; i < Bomb.n; i++) {
-                System.Windows.Point Point = new System.Windows.Point(Bomb.coord_x[i], Bomb.coord_y[i]);
+                System.Windows.Point Point = new System.Windows.Point(k*Bomb.coord_x[i], ActualHeight-k*Bomb.coord_y[i]);
                 myPointCollection.Add(Point);
             }
-            Win.model.Children.Add(trajectory);
+            model.Children.Add(trajectory);
+            Canvas.SetLeft(trajectory, model.Width / 2);
+            Canvas.SetTop(trajectory, model.Height / 2);
         }
     }
 }   
